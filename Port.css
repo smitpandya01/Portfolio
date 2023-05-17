@@ -1,0 +1,326 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(21, 21, 21);
+    box-sizing: border-box;
+    /*font-family: 'Poppins', sans-serif;*/
+}
+body
+{
+    color: #eaff00;
+    background-image: url('backg.jpg');
+    background-repeat: no-repeat;
+    background-size: 1541px;
+    margin-bottom: -163px;
+    background-position: center;
+}
+.grid .ez
+{
+    position: absolute;
+    height: 100px;
+    box-sizing: border-box;
+    top: 800px;
+    left: 174px;
+}
+.grid img
+{
+    max-width: 100%;
+    margin: -18px;
+    padding: 32px;
+    border-radius: 50px;
+}
+.grid img .cd1
+{
+    padding-left: 10px;
+}
+section
+{
+    position: relative;
+    width: 100%;
+    background-color: #00000000;
+    min-height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header
+{
+    position: absolute;
+    font-family: 'Tw cen MT', sans-serif;
+    top: 0;
+    left: 0;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    background-color: #00000000;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    backdrop-filter: blur(20px);
+}
+header .logo
+{
+    /*right: -90%; */
+    position: absolute;
+    top: 10px;
+    background-color: #00000000;
+    max-width: 200px;
+}
+header ul
+{
+    position: relative;
+    display:flex;
+    left: -336px;
+    background-color: #00000000;
+}
+header ul li
+{
+    list-style: none;
+    background-color: #00000000;
+}
+header ul li a
+{
+    display: inline-block;
+    background-color: #00000000;
+    color: rgb(193, 193, 193);
+    font-weight: 700;
+    margin-left: 40px;
+    text-decoration: none;
+}
+header ul li a:hover
+{
+    transition: 0.3s;
+    display: inline-block;
+    background-color: #00000000;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    margin-left: 40px;
+    text-decoration: none;
+}
+.imgBox img
+{
+    /*size: 100px;*/
+    position: absolute;
+    height: 1550px;
+    margin-left: 47%;
+    padding-top:0%;
+    left: -55%;
+}
+.sci
+{
+    position: absolute;
+    background-color: #00000000;
+    top: 4.2%;
+    right: 30px;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.sci li
+{
+    list-style: none;   
+    background-color: #00000000;
+}
+.sci li a
+{
+    display: flex;
+    background-color: #00000000;
+    margin: 0px 0;
+    transform: scale(0.3);  
+}
+.text
+{
+    font-family: 'Montserrat', sans-serif;
+    max-width: 600px;
+    top: -250px;
+    right: 700px;
+    background-color: #00000000;
+}
+.text h2
+{
+    padding: 0px 20px;
+    padding-top: 0px;
+    background-color: #00000000;
+    color: #c9c9c9;
+    font-size: 20px;
+    line-height: 1.4em;
+    font-weight: 700;
+}
+.text span
+{
+    padding: 20px 0px;
+    position: relative;
+    margin: 0%;
+    left: 3%;
+    top: 40%;
+    color: #00dfea ;
+    background-color: #00000000;
+    font-size: 4em;
+    font-weight: 900;
+}
+.text p
+{
+    padding-left: 20px;
+    font-size: small;
+    color: #b8b8b8;
+    background-color: #00000000;
+}
+.Transition
+{
+    position: absolute;
+    background: linear-gradient(180deg, #111111, #151515);
+    height: 146px;
+    width: 1678px;
+    left: -145px;
+    bottom: -83px;
+    filter: blur(31px);
+}
+footer
+{
+    width: 1522px;
+    height: 450px;
+    position: absolute;
+    top: 1740px;
+    left: 0px;
+}
+footer .see
+{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    padding-top: 86px;
+    padding-left: 150px;
+    color: white;
+}
+footer .spe
+{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    position: absolute;
+    font-weight: 600;
+    letter-spacing: 2px;
+    top: 165px;
+    left: 206px;
+    color: white;
+}
+footer .spe2
+{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    position: absolute;
+    font-weight: 600;
+    letter-spacing: 2px;
+    top: 243px;
+    left: 206px;
+    color: white;
+}
+footer .spe3
+{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    position: absolute;
+    font-weight: 600;
+    letter-spacing: 2px;
+    top: 323px;
+    left: 206px;
+    color: white;
+}
+footer .in
+{
+    list-style: none;
+    padding-left: 144px;
+    padding-top: 18px;
+}
+footer .follow
+{
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: white;
+    top: 190px;
+    left: 206px;
+    background-color: #00b3ff;
+    cursor: pointer;
+    border-radius: 40px;
+    padding: 4px 80px;
+}
+footer .follow2
+{
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: white;
+    top: 270px;
+    left: 206px;
+    background-color: #00b3ff;
+    cursor: pointer;
+    border-radius: 40px;
+    padding: 4px 80px;
+}
+footer .follow3
+{
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: white;
+    top: 345px;
+    left: 206px;
+    background-color: #00b3ff;
+    cursor: pointer;
+    border-radius: 40px;
+    padding: 4px 80px;
+}
+footer .co
+{
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    font-weight: 900;
+    color: white;
+    letter-spacing: 2px;
+    top: 94px;
+    left: 919px;
+}
+footer .mail
+{
+    position: absolute;
+    list-style: none;
+    top: 165px;
+    right: 546px;
+}
+footer .mai
+{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    position: absolute;
+    font-weight: 600;
+    letter-spacing: 2px;
+    top: 176px;
+    left: 991px;
+    color: white;
+}
+footer .arr
+{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    position: absolute;
+    font-weight: 300;
+    letter-spacing: 1px;
+    top: 424px;
+    left: 608px;
+    color: #c9c9c9;
+}
+footer .dot
+{
+    position: absolute;
+    right: 790px;
+    top: 100px;
+}
